@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.nav-tabs {
+    margin-top: 20px;
+}
+
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* Estilo para la imagen de foto de perfil */
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: transform 0.3s ease; /* Efecto de escala al pasar el cursor */
+}
+
+header img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% del tamaño original */
+}
+/* Estilo para el elemento <h1> */
+h1 {
+    cursor: pointer; /* Cambia el cursor al tipo "mano" */
+    transition: background-color 0.3s ease; /* Efecto al pasar el cursor */
+}
+
+h1:hover {
+    background-color: #FF5733; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilo para el elemento <h2> */
+h2 {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+h2:hover {
+    background-color: #007BFF;
+}
+
+/* Estilo para el elemento <h3> */
+h3 {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+h3:hover {
+    background-color: #00CC00;
+}
+/* Estilos para los íconos de redes sociales */
+.redes-sociales a {
+    font-size: 24px; /* Tamaño de los íconos */
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF; /* Color de los íconos */
+}
+
+.redes-sociales a:hover {
+    color: #0056b3; /* Color al pasar el cursor */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Images/FONDO.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #333;
+}
